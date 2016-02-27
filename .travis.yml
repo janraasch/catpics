@@ -1,0 +1,13 @@
+sudo: false
+language: clojure
+branches: 
+only:
+- master
+deploy:
+  provider: heroku
+  api_key:
+    secure: LozQatEiEziWBy1Tl+N0iEoJ5BRk7pC7ZXo08rlf9iAtyKogIK4qdxuRJW1yON+qR+0XiJ6XDc+ZPhnxB35tgF7xIac2Ds108H3c9e2YdsxzegLfNAG/PhFUI2oH6cZidocLFepDPfi0VcZVKLgQFBCcRMg9xjf5xS5ymQa9KnSOzvSM8RBSa+qElMaP9I4NAs1ZvwiRvts/d3ENpcE/bRxla9g6WqHJqCTGXDcotE4IFzaQW8zG7KB8IqY4WpDNDz9ZIuibgh6C7nBX3xKOtS1Oz9xy200F9IylDLH4YT1fluWTb6l3Zsrs7FgYc7Sk+sK1FK7h3KvKQi/QwMC77wwECq9tQOrNng8MWpgijVAi4ER7DP62pzSyGJwt/OUefxTVbv2QiAMqc9thspFdSsMfcjAMkPuB1PHnWRw06LEqPBnvT7MZ4uI6DZ/bkxfSYNyLFUjWgSYnZAaO8zJ9BUk0DcPCZM/yetvT+D7hdOJ10OdtKeOaXsnTXBv5MEalYT04MmhgMkq7Reu0zoKIFYPqAXDt1bHcbDRn3LGoWzUlklqBRQ1zQQPKLftl4QmHLIsx2+YPm3iVl8Rd989Bp+mALAu5tox8ufMHmpFcJTKfWqzILSAO4w4gebRy2AT3PHfzeCgdXH8ghNbpLdHiAAA3ZFoygUdUxUcId6rGgg0=
+  app: 
+    master: catpics
+  on:
+    repo: janraasch/catpics
