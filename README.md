@@ -14,19 +14,12 @@ For my work on chapters 1-5 see https://github.com/janraasch/guestbook.
 You will need [Leiningen][lein] 2.0 or above installed.
 
 ## Development
-First, initialize your development database running:
+To compile ClojureScript run:
 
-    lein run migrate
-
-To compile ClojureScript once for development, run
-
-    lein cljsbuild once
-
-And, to automatically compile updates to ClojureScript files, run
-
-    lein cljsbuild auto
-
-Then, to start a web server for the application, run:
+    lein figwheel
+    
+    
+Then, to start the web server for the application, run:
 
     lein run
 
@@ -43,7 +36,6 @@ And, of course, read the [book][webdevclo] :).
  - [Sente - Realtime web comms for Clojure/Script][sente]
  - [eastwood - a Clojure lint tool][eastwood]
  - [kibit - There's a function for that][kibit]
- - [bikeshed - another Clojure lint tool][bikeshed]
 
 ## Contributing
 
@@ -56,12 +48,11 @@ Copyright © 2016 [Jan Raasch][jan]
 [sente]: https://github.com/ptaoussanis/sente
 [deps-link]: https://jarkeeper.com/janraasch/guestbook
 [deps-svg]: https://jarkeeper.com/janraasch/guestbook/status.svg
-[bikeshed]: https://github.com/dakrone/lein-bikeshed
 [kibit]: https://github.com/jonase/kibit
 [eastwood]: https://github.com/jonase/eastwood
 [luminus]: http://www.luminusweb.net/
 [heroku-link]: https://catpics.herokuapp.com/
-[heroku-svg]: http://img.shields.io/badge/catpics-onHeroku-008eb4.svg
+[heroku-svg]: http://img.shields.io/badge/catpics-onHeroku-9f8eb4.svg
 [travis-link]: https://travis-ci.org/janraasch/catpics
 [travis-svg]: https://travis-ci.org/janraasch/catpics.svg?branch=master
 [clojurians-jan]: https://clojurians.slack.com/messages/clojure/team/jan/
