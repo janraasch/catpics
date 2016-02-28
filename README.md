@@ -3,8 +3,6 @@
 
 > This is [me][jan] following along with the instructions of chapter 6 of [Web Development with Clojure, 2nd Edition][webdevclo] by [Dmitri Sotnikov][dimtri].
 
-For my work on chapters 1-5 see https://github.com/janraasch/guestbook.
-
 ## (My) Text Editor Setup
 - Text Editor: [Atom][atom]
 - Plugins: [Proto REPL][proto-repl], [Parinfer][parinfer] and [language-clojure][atom-clojure]
@@ -36,6 +34,12 @@ And, of course, read the [book][webdevclo] :).
  - [Sente - Realtime web comms for Clojure/Script][sente]
  - [eastwood - a Clojure lint tool][eastwood]
  - [kibit - There's a function for that][kibit]
+ 
+## Other Chapters
+ - Chapter 1-5, see https://github.com/janraasch/guestbook.
+ - Chapter 6, see https://github.com/janraasch/catpics.
+ - 1st part of chapter 7, see https://github.com/janraasch/clojure-db-examples.
+ - 2nd part of chapter 7, see https://github.com/janraasch/employeezies.
 
 ## Contributing
 

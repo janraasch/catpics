@@ -1,8 +1,8 @@
 sudo: false
 language: clojure
 branches: 
-only:
-- master
+  only:
+  - master
 deploy:
   provider: heroku
   api_key:
